@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <video autoPlay loop muted id="video">
-        <source src={MainVideo} type="video/mp4" />
+        <source src={MainVideo} type="video/mp4" srcset="../../assets/5.jpg" />
       </video>
       <div className="hero-text">
         <h2>אנה פרנק</h2>

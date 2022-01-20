@@ -4,6 +4,7 @@
   top: 90px;
   object-fit: contain;
   color: #f4eeff;
+  /* background: url("../../assets/5.jpg") center/cover no-repeat; */
 }
 #video {
   position: absolute;
@@ -20,6 +21,7 @@
   height: 90%;
   padding: 1rem;
   text-align: center;
+  z-index: 999;
 }
 .hero p {
   font-size: 1.4rem;
