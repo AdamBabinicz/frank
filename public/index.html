@@ -1,43 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/4.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="Annelies Marie „Anne” Frank (hebr. ‏אנה פרנק‎; ur. 12 czerwca 1929 we Frankfurcie nad Menem, zm. w lutym 1945 w Bergen-Belsen) – żydowska dziewczyna, autorka dziennika, zmarła w obozie koncentracyjnym po ponad dwuletnim ukrywaniu się w Amsterdamie."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="Tragizm pamiętników Anne Frank podkreśla także tragiczny koniec historii młodej dziewczyny. 4 sierpnia 1944, po zadenuncjowaniu kryjówki Franków przez donosiciela, cała rodzina została przewieziona do obozu koncentracyjnego Auschwitz-Birkenau."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="28 października lub 1 listopada 1944 Anne została przewieziona wraz z siostrą do obozu koncentracyjnego Bergen-Belsen. W obozie zginęła najpierw matka, potem siostra."
+    />
+    <meta property="og:url" content="https://okupacja.netlify.app" />
+    <meta property="og:image" content="https://okupacja.netlify.app/3.jpg" />
+    <meta property="fb:app_id" content="1951716098397474" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="business:contact_data:street_address" content="" />
+    <meta
+      property="business:contact_data:locality"
+      content="Literatura okupacyjna"
+    />
+    <meta property="business:contact_data:region" content="Literatura" />
+    <meta property="business:contact_data:postal_code" content="31-019" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Literatura czasu wojny i okupacji"
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/lata8290/status/1305437932631871488"
+    />
+    <meta
+      name="twitter:title"
+      content="Często oddaje się marzeniom, wspomina beztroskie lata wczesnego dzieciństwa, nigdy nie traci nadziei na poprawę sytuacji. Pomimo traumatycznych wydarzeń jakie codziennie dotykały małą Annę, jej zapiski nie są pesymistyczne."
+    />
+    <meta
+      name="twitter:description"
+      content="Dziewczynka opisuje m.in. drobne sprzeczki między mieszkańcami kryjówki, codzienne smutki i radości oraz pojawiające się u niej samej pierwsze oznaki zainteresowania chłopcami."
+    />
+    <meta name="twitter:image" content="https://okupacja.netlify.app/4.jpg" />
+    <meta
+      name="twitter:image:alt"
+      content="Van den Bergh był członkiem Rady Żydowskiej, organu zmuszanego do wdrażania nazistowskiej polityki na terenach zamieszkanych przez Żydów. Został rozwiązany w 1943 r., a jego członków wywieziono do obozów koncentracyjnych."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/1.svg" />
+
+    <title>Anne Frank</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Ofiary nazizmu",
+        "contentUrl": "https://pl-pl.facebook.com/lozagan",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://okupacja.netlify.app/5.jpg",
+        "uploadDate": "2021-01-19",
+        "description": "Pierwsze wydanie pamiętnika nie było kompletne, zostało opracowane przez Ottona Franka. Po jego śmierci potwierdzono autentyczność rękopisu, negowaną przez neonazistów, i opublikowano pełny tekst."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://okupacja.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Przerwane życie",
+        "url": "https://okupacja.netlify.app",
+        "sameAs": [
+          "https://www.facebook.com/MadeinKrakow",
+          "https://goo.gl/maps/Yk6Pjc5qrCXNugda6",
+          "https://twitter.com/royalsociety/status/1111931141836156928",
+          "https://www.youtube.com/watch?v=4Vj7hM9B8ok",
+          "https://pl.pinterest.com/pin/667447607273551098"
+        ]
+      }
+    </script>
   </body>
 </html>
