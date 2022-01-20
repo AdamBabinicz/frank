@@ -23,14 +23,14 @@ const About = () => {
             <AboutCard
               icon={<BsBook className="icon" />}
               heading="Dziennik Anne Frank"
-              text="Pamiętnik Anne, przechowany przez Holenderkę Miep Gies, jedną z osób zaangażowanych w pomoc rodzinie Franków, został opublikowany po raz pierwszy przez Ottona Franka w 1947. W kolejnych latach historię Anne przetłumaczono na 30 języków oraz przeniesiono na ekran."
+              text="Pamiętnik Anne, przechowany przez Holenderkę Miep Gies, został opublikowany po raz pierwszy przez Ottona Franka w 1947. W kolejnych latach historię Anne przetłumaczono na 30 języków oraz przeniesiono na ekran."
             />
           </div>
           <div className="card">
             <AboutCard
               icon={<GiWoodCabin className="icon" />}
               heading="Dom przy Prinsengracht 263"
-              text="Dom, gdzie Frankowie ukrywali się przez dwa lata, zamieniono w muzeum. W 2007 roku muzeum odwiedziło ponad milion osób. Budynek był dwukrotnie remontowany w 1970 i 1999 roku. 28 września 1999 królowa Holandii Beatrycze dokonała ponownego otwarcia muzeum."
+              text="Dom, gdzie Frankowie ukrywali się przez dwa lata, zamieniono w muzeum. W 2007 roku muzeum odwiedziło ponad milion osób. 28 września 1999 królowa Holandii Beatrycze dokonała ponownego otwarcia muzeum."
             />
           </div>
           <div className="card">
