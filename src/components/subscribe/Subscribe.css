@@ -49,6 +49,8 @@
 @media screen and (max-width: 495px) {
   .subscribe .display-col {
     flex-direction: column;
+  }
+  .display-col .btn {
     margin-top: 1rem;
   }
 }
