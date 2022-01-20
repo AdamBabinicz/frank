@@ -17,6 +17,7 @@
 }
 .left p {
   font-family: "Cutive Mono", monospace;
+  margin-top: 1rem;
 }
 .developers .right {
   background: #000;
