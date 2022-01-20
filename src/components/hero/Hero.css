@@ -4,7 +4,6 @@
   top: 90px;
   object-fit: contain;
   color: #f4eeff;
-  /* background: url("../../assets/5.jpg") center/cover no-repeat; */
 }
 #video {
   position: absolute;
@@ -32,4 +31,10 @@
 .bottom-text h2 {
   font-size: 1.6rem;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    background: url("../../assets/5.jpg") center/cover no-repeat;
+  }
 }
